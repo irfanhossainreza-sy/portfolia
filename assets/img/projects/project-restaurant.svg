@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgRest" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="50%" stop-color="#292524"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgRest)"/>
+
+  <!-- Chrome Bar -->
+  <rect x="30" y="25" width="740" height="40" rx="8" fill="#1c1917" opacity="0.9"/>
+  <circle cx="55" cy="45" r="6" fill="#ef4444"/>
+  <circle cx="75" cy="45" r="6" fill="#f59e0b"/>
+  <circle cx="95" cy="45" r="6" fill="#10b981"/>
+  <rect x="130" y="35" width="380" height="20" rx="6" fill="#292524"/>
+  <text x="145" y="49" fill="#a8a29e" font-family="sans-serif" font-size="11">https://culinarycraft.restaurant/menu</text>
+
+  <!-- Restaurant Hero Banner -->
+  <g transform="translate(50, 85)">
+    <rect x="0" y="0" width="700" height="180" rx="14" fill="#292524" stroke="#44403c" stroke-width="1"/>
+    <!-- Decorative foodie badges -->
+    <text x="35" y="55" fill="#f59e0b" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="2">FINE DINING & BISTRO</text>
+    <text x="35" y="95" fill="#fafaf9" font-family="serif" font-size="32" font-weight="700">Culinary Craft Experience</text>
+    <text x="35" y="125" fill="#d6d3d1" font-family="sans-serif" font-size="13">Artisanal cuisine, handcrafted seasonal ingredients & effortless table reservations.</text>
+    
+    <rect x="35" y="140" width="130" height="30" rx="6" fill="url(#goldGrad)"/>
+    <text x="50" y="160" fill="#000000" font-family="sans-serif" font-size="11" font-weight="700">Book Table Now</text>
+
+    <!-- Star rating pill -->
+    <g transform="translate(520, 35)">
+      <rect x="0" y="0" width="145" height="110" rx="10" fill="#1c1917" stroke="#f59e0b" stroke-width="1"/>
+      <text x="15" y="30" fill="#f59e0b" font-family="sans-serif" font-size="20">★★★★★</text>
+      <text x="15" y="60" fill="#fafaf9" font-family="sans-serif" font-size="14" font-weight="700">4.9 / 5.0 Rating</text>
+      <text x="15" y="85" fill="#a8a29e" font-family="sans-serif" font-size="11">500+ Reviews</text>
+    </g>
+  </g>
+
+  <!-- Dishes Cards -->
+  <g transform="translate(50, 285)">
+    <!-- Dish 1 -->
+    <rect x="0" y="0" width="220" height="170" rx="10" fill="#292524" stroke="#44403c" stroke-width="1"/>
+    <rect x="15" y="15" width="190" height="85" rx="6" fill="#44403c"/>
+    <circle cx="110" cy="57" r="28" fill="#f59e0b" opacity="0.3"/>
+    <text x="95" y="64" fill="#fafaf9" font-size="22">🍲</text>
+    <text x="15" y="125" fill="#fafaf9" font-family="sans-serif" font-size="13" font-weight="600">Truffle Risotto</text>
+    <text x="15" y="145" fill="#f59e0b" font-family="sans-serif" font-size="14" font-weight="700">$28.00</text>
+
+    <!-- Dish 2 -->
+    <rect x="240" y="0" width="220" height="170" rx="10" fill="#292524" stroke="#44403c" stroke-width="1"/>
+    <rect x="255" y="15" width="190" height="85" rx="6" fill="#44403c"/>
+    <circle cx="350" cy="57" r="28" fill="#ef4444" opacity="0.3"/>
+    <text x="335" y="64" fill="#fafaf9" font-size="22">🥩</text>
+    <text x="255" y="125" fill="#fafaf9" font-family="sans-serif" font-size="13" font-weight="600">Prime Ribeye</text>
+    <text x="255" y="145" fill="#f59e0b" font-family="sans-serif" font-size="14" font-weight="700">$45.00</text>
+
+    <!-- Dish 3 -->
+    <rect x="480" y="0" width="220" height="170" rx="10" fill="#292524" stroke="#44403c" stroke-width="1"/>
+    <rect x="495" y="15" width="190" height="85" rx="6" fill="#44403c"/>
+    <circle cx="590" cy="57" r="28" fill="#10b981" opacity="0.3"/>
+    <text x="575" y="64" fill="#fafaf9" font-size="22">🥗</text>
+    <text x="495" y="125" fill="#fafaf9" font-family="sans-serif" font-size="13" font-weight="600">Artisan Harvest</text>
+    <text x="495" y="145" fill="#f59e0b" font-family="sans-serif" font-size="14" font-weight="700">$19.50</text>
+  </g>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accentGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="shadow1" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad1)"/>
+  
+  <!-- Browser Chrome Header -->
+  <rect x="30" y="30" width="740" height="40" rx="8" fill="#1e293b" opacity="0.9"/>
+  <circle cx="55" cy="50" r="6" fill="#ef4444"/>
+  <circle cx="75" cy="50" r="6" fill="#f59e0b"/>
+  <circle cx="95" cy="50" r="6" fill="#10b981"/>
+  <rect x="130" y="40" width="400" height="20" rx="6" fill="#0f172a" opacity="0.8"/>
+  <text x="145" y="54" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">https://omnitask.dev/dashboard</text>
+  <circle cx="740" cy="50" r="10" fill="#6366f1" opacity="0.8"/>
+
+  <!-- App Header -->
+  <g transform="translate(45, 90)">
+    <rect x="0" y="0" width="710" height="45" rx="8" fill="#1e293b" opacity="0.6"/>
+    <text x="20" y="28" fill="#f8fafc" font-family="sans-serif" font-weight="700" font-size="16">OmniTask Board</text>
+    <rect x="520" y="10" width="90" height="25" rx="12" fill="#334155"/>
+    <text x="538" y="27" fill="#cbd5e1" font-family="sans-serif" font-size="11">+ New Task</text>
+    <rect x="625" y="10" width="70" height="25" rx="12" fill="url(#accentGrad1)"/>
+    <text x="643" y="27" fill="#ffffff" font-family="sans-serif" font-weight="600" font-size="11">Sprint 4</text>
+  </g>
+
+  <!-- Kanban Columns -->
+  <!-- Col 1: To Do -->
+  <g transform="translate(45, 150)">
+    <rect x="0" y="0" width="220" height="310" rx="10" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1"/>
+    <rect x="15" y="15" width="8" height="8" rx="4" fill="#f59e0b"/>
+    <text x="32" y="24" fill="#e2e8f0" font-family="sans-serif" font-weight="600" font-size="13">To Do</text>
+    <rect x="180" y="14" width="25" height="16" rx="8" fill="#334155"/>
+    <text x="190" y="26" fill="#94a3b8" font-family="sans-serif" font-size="10">3</text>
+
+    <!-- Card 1 -->
+    <rect x="12" y="45" width="196" height="75" rx="8" fill="#1e293b" filter="url(#shadow1)"/>
+    <rect x="22" y="55" width="50" height="14" rx="4" fill="#4338ca"/>
+    <text x="27" y="66" fill="#c7d2fe" font-family="sans-serif" font-size="9">UI DESIGN</text>
+    <text x="22" y="88" fill="#f1f5f9" font-family="sans-serif" font-size="12" font-weight="500">Navbar Glass Effect</text>
+    <circle cx="190" cy="105" r="8" fill="#ec4899"/>
+    <rect x="22" y="102" width="60" height="6" rx="3" fill="#334155"/>
+
+    <!-- Card 2 -->
+    <rect x="12" y="130" width="196" height="80" rx="8" fill="#1e293b" filter="url(#shadow1)"/>
+    <rect x="22" y="140" width="65" height="14" rx="4" fill="#065f46"/>
+    <text x="27" y="151" fill="#6ee7b7" font-family="sans-serif" font-size="9">JAVASCRIPT</text>
+    <text x="22" y="173" fill="#f1f5f9" font-family="sans-serif" font-size="12" font-weight="500">LocalStorage Sync</text>
+    <circle cx="190" cy="195" r="8" fill="#3b82f6"/>
+    <rect x="22" y="192" width="90" height="6" rx="3" fill="#334155"/>
+  </g>
+
+  <!-- Col 2: In Progress -->
+  <g transform="translate(290, 150)">
+    <rect x="0" y="0" width="220" height="310" rx="10" fill="url(#cardGrad1)" stroke="#6366f1" stroke-width="1" stroke-dasharray="4"/>
+    <rect x="15" y="15" width="8" height="8" rx="4" fill="#6366f1"/>
+    <text x="32" y="24" fill="#e2e8f0" font-family="sans-serif" font-weight="600" font-size="13">In Progress</text>
+    <rect x="180" y="14" width="25" height="16" rx="8" fill="#4338ca"/>
+    <text x="190" y="26" fill="#e0e7ff" font-family="sans-serif" font-size="10">2</text>
+
+    <!-- Card 1 -->
+    <rect x="12" y="45" width="196" height="95" rx="8" fill="#1e293b" filter="url(#shadow1)" stroke="#4f46e5" stroke-width="1"/>
+    <rect x="22" y="55" width="60" height="14" rx="4" fill="#6366f1"/>
+    <text x="28" y="66" fill="#ffffff" font-family="sans-serif" font-size="9">FRONTEND</text>
+    <text x="22" y="88" fill="#f8fafc" font-family="sans-serif" font-size="12" font-weight="600">Drag & Drop API</text>
+    <text x="22" y="106" fill="#94a3b8" font-family="sans-serif" font-size="10">HTML5 native events</text>
+    <rect x="22" y="122" width="120" height="6" rx="3" fill="#334155"/>
+    <rect x="22" y="122" width="85" height="6" rx="3" fill="#06b6d4"/>
+    <circle cx="190" cy="125" r="8" fill="#f59e0b"/>
+
+    <!-- Card 2 -->
+    <rect x="12" y="150" width="196" height="85" rx="8" fill="#1e293b" filter="url(#shadow1)"/>
+    <rect x="22" y="160" width="55" height="14" rx="4" fill="#831843"/>
+    <text x="27" y="171" fill="#fbcfe8" font-family="sans-serif" font-size="9">BOOTSTRAP</text>
+    <text x="22" y="193" fill="#f1f5f9" font-family="sans-serif" font-size="12" font-weight="500">Modal Editor Flow</text>
+    <circle cx="190" cy="220" r="8" fill="#10b981"/>
+  </g>
+
+  <!-- Col 3: Done -->
+  <g transform="translate(535, 150)">
+    <rect x="0" y="0" width="220" height="310" rx="10" fill="url(#cardGrad1)" stroke="#334155" stroke-width="1"/>
+    <rect x="15" y="15" width="8" height="8" rx="4" fill="#10b981"/>
+    <text x="32" y="24" fill="#e2e8f0" font-family="sans-serif" font-weight="600" font-size="13">Completed</text>
+    <rect x="180" y="14" width="25" height="16" rx="8" fill="#065f46"/>
+    <text x="190" y="26" fill="#a7f3d0" font-family="sans-serif" font-size="10">5</text>
+
+    <!-- Card 1 -->
+    <rect x="12" y="45" width="196" height="75" rx="8" fill="#1e293b" opacity="0.8" filter="url(#shadow1)"/>
+    <rect x="22" y="55" width="45" height="14" rx="4" fill="#0284c7"/>
+    <text x="28" y="66" fill="#e0f2fe" font-family="sans-serif" font-size="9">CSS3</text>
+    <text x="22" y="88" fill="#cbd5e1" font-family="sans-serif" font-size="12" font-weight="500" text-decoration="line-through">Dark Theme Switch</text>
+    <path d="M185 105 L190 110 L198 100" stroke="#10b981" stroke-width="2" fill="none"/>
+  </g>
+</svg>

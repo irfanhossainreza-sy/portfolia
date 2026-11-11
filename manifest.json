@@ -1,0 +1,16 @@
+{
+  "name": "Irfan Hossain - Front-End Web Developer",
+  "short_name": "Irfan.dev",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070a12",
+  "theme_color": "#6366f1",
+  "description": "Portfolio of Irfan Hossain - Front-End Web Developer specializing in HTML5, CSS3, JavaScript, Bootstrap 5, and professional English communication.",
+  "icons": [
+    {
+      "src": "assets/img/profile.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
